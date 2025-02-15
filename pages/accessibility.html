@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Accessibility</title>
+</head>
+
+<body>
+    <header>
+        <div class="titleBox">
+            <a href="../index.html">Final Assignment</a>
+        </div>
+        <!-- Menu code courtesy of https://codepen.io/ahaywood/pen/OJXLKEX (https://www.youtube.com/watch?v=x_VYl7zz1XY&ab_channel=SelfTeachMe) -->
+        <input type="checkbox" class="trigger" id="menuBtn">
+        <label for="menuBtn">
+            MENU
+            <span></span>
+            <span></span>
+        </label>
+        <!---->
+        <nav>
+            <ul>
+                <li><a class="topNav" href="reflection.html">Reflection</a></li>
+                <li class="selected"><a class="topNav" href="accessibility.html">Accessibility</a></li>
+                <li><a class="topNav" href="topical.html">Topical Information</a></li>
+                <li><a class="topNav" href="fun.html">Fun Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="accessimg" class="coverimg">
+            <img src="../img/accessimg/access.jpeg" alt="Two students giving high-five">
+            <h1>Accessibility</h1>
+        </div>
+        <article>
+            <div>
+                <h2>Universal accessibility</h2>
+                <p> Our website, as our final assignment, should have the same look and layout for the first four
+                    pages and ensure universal accessibility. While in the last page, the fun page, we
+                    could freely let our creativity loose and explore our ideas.</p>
+                <h3>Preparation</h3>
+                <p>Before we started, we agreed to make the general layout and structure of the web pages as simple and
+                    clean as possible, but also aesthetically pleasing. We explored all our ideas, and looked at
+                    different websites for inspiration, and then decided on our layout and structure based on what was
+                    the most aesthetically pleasing and clean.
+                </p>
+                <h3>The menu</h3>
+                <p>Our first point was to make it easy to navigate between the pages, thus, we had our menu fixed on top
+                    available to switch between the pages at any time. At first, we had our header fixed on the left for
+                    our main
+                    pages (figure 1) because we wanted to make it somewhat new and refreshing, and we could get more
+                    room from top
+                    to bottom for the main content, but we thought that some people with reading disabilities or visual
+                    impairments
+                    might have some difficulties with that as the title was rotated vertically, so we saved our idea for
+                    our fun page
+                    instead where we could let our creativity loose. </p>
+                <h3>Screen readers</h3>
+                <p>Another important group of people that we focused on was people that use screen readers. It was
+                    important
+                    that we used all the semantic tags available such as &lt;nav>, &lt;header>, &lt;main>, &lt;footer>,
+                    &lt;figure> and &lt;em>
+                    instead of &lt;i> for instance. We also made sure we used correct hierarchy of headings, and to have
+                    alternative
+                    texts explaining the image as detailed as possible for our important images. We also validated our
+                    html and css codes regularly
+                    to make sure everything was free for errors (figure 2).</p>
+                <div id="gallery">
+                    <figure>
+                        <img class="galleri" src="../img/accessimg/firstmenu.png"
+                            alt="Screenshot of our first layout with our header fixed on the left with the title rotated vertically, and our content taking the whole space on the right">
+                        <figcaption>Figure 1: Our first layout</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="galleri" src="../img/accessimg/htmlvalidator.png"
+                            alt="No errors or warning shown in our code for the Accessibility page validated by html checker">
+                        <figcaption>Figure 2: HTML check on this page</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="galleri" src="../img/accessimg/colorcheck.png"
+                            alt="Pass on the color contrast for the text and background color in this box from webAIM's constrast checker">
+                        <figcaption>Figure 3: Color contrast check for the text and background color</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="galleri" src="../img/accessimg/A-Check.png"
+                            alt="No known problems in the accessibility review on our page checked by Achecker">
+                        <figcaption>Figure 4: No issues on the accessibility check</figcaption>
+                    </figure>
+                </div>
+                <h3>Other points</h3>
+                <p>Some other things we paid attention to was if the text and images had sufficient color contrast
+                    (figure 3), and if we avoided the
+                    color combinations that should be avoided. We also tested ourselves if it was possible to navigate
+                    our website through
+                    the keyboard only. On smaller screens we have a hamburger icon with a “menu”-label for our
+                    navigation in case some might
+                    not know that it is a menu. We also avoided javascript to make the website generally more
+                    accessible.</p>
+                <h3>Accessibility check</h3>
+                <p>Once we made sure to use semantic tags, correct hierarchy and paid attention to text and image
+                    contrast, we ran our code
+                    through an accessibility check. This is a necessary and useful step that can help us detect
+                    potential accessibility issues
+                    that can arise. Thankfully because we were conscious of accessibility; the check showed no issues
+                    (figure 4). We ran each web
+                    page through the accessibility checks and got the same result.</p>
+                <h3>Summary</h3>
+                <p>There were things that we had to keep in the back of our mind when we started the assignment. We
+                    started coding with a rough
+                    idea of how we wanted our page to look. Of course, this changed further down the development
+                    road as we had to think of accessibility. We also made sure to accommodate different screen sizes.
+                    To conclude, we were happy with our website. </p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="members">
+            <p>s345368</p>
+        </div>
+        <div class="members">
+            <p>s362085</p>
+        </div>
+        <div class="members">
+            <p>s362106</p>
+        </div>
+    </footer>
+</body>
+
+</html>
